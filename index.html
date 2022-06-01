@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Saulo Román Santillán Nava" />
+  <meta name="description" content="Soy un desarrollador web dispuesto a hacer realidad cualquier idea que tengas en mente." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saulo Román &mdash; Desarrollador web</title>
+
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- STYLES -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
+  <link rel="stylesheet" href="/css/general.css">
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/queries.css" />
+
+
+</head>
+<body>
+  <!-- HERO -->
+  <section class="hero">
+
+      <!-- HEADER -->
+    <header id="header" class="header">
+      <nav class="menu">
+        <ul class="main-menu">
+          <li><a href="#" class="main-menu__link">Home</a></li>
+          <li><a href="#services" class="main-menu__link">Servicios</a></li>
+          <li><a href="#about" class="main-menu__link">Acerca de mí</a></li>
+          <li><a href="#skills" class="main-menu__link">Mis habilidades</a></li>
+          <li><a href="#portfolio" class="main-menu__link">Mi portafolio</a></li>
+          <li><a href="#contact" class="main-menu__link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <button class="button-mobile-nav">
+        <ion-icon name="menu-outline" class="icon-mobile-app" id="menuBtn"></ion-icon>
+        <ion-icon class="icon-mobile-app" name="close-outline" id="closeBtn"></ion-icon>
+      </button>
+
+    </header>
+
+
+    <div class="hero__grid">
+
+      <div class="hero__img-box">
+        <img src="/Img/Group 85.svg" alt="Blue rectangle" class="hero__img-1">
+        <img src="/Img/mifoto.png" alt="Román photo" class="hero__img-2">
+      </div>
+
+      <div class="hero__info">
+        <h1 class="hero__heading">
+          <span class="hero__heading--1">Hola, soy Román</span>
+          <span class="hero__heading--2"><span>Desarrollador</span> Web &mdash; FrontEnd</span>
+        </h1>
+        <div class="icons_box">
+          <a href="#" class="icon_box">
+            <img src="/Img/linkedlin.svg" alt="linkedlin logo">
+          </a>
+          <a href="#" class="icon_box">
+            <img src="/Img/Instagram.svg" alt="linkedlin logo">
+          </a>
+          <a href="#" class="icon_box">
+            <img src="/Img/twitter.svg" alt="linkedlin logo">
+          </a>
+        </div>
+        <a href="#" class="hero__btn">
+          <ion-icon name="mail-open-outline" class="hero__icon"></ion-icon>
+          <p class="hero__btn-text">Contáctame</p>
+        </a>
+      </div>
+
+      <div class="hero__points-box">
+        <img src="/Img/Group 84-1.svg" alt="Orage points" class="hero__points">
+      </div>
+
+    </div>
+  </section>
+
+  <main>
+    
+    <!-- SECTION SERVICES -->
+    <section id="services" class="section-services">
+      <div class="container">
+        <div class="carousel">
+          <h2 class="heading-secondary">Servicios</h2>
+
+          <div class="carousel__container">
+            <!-- BUTTONS -->
+            <button aria-label="anterior" class="carousel__previous">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </button>
+            <button aria-label="siguiente" class="carousel__next">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+
+            <!-- CAROUSEL -->
+            <div class="carousel__list">
+              <div class="carousel__element card margin-x-md">
+                <img src="/Img/iconoir_design-pencil.svg" alt="Red pencil" class="card__img"/>
+                <h3 class="heading-tertiary">UX/UI Design</h3>
+                <p class="card__text">Experiencias únicas para los usuarios que interactúan con tus productos</p>
+              </div>
+              <div class="carousel__element card margin-x-md">
+                <img src="/Img/feather_search.svg" alt="Purple feather" class="card__img"/>
+                <h3 class="heading-tertiary">Research</h3>
+                <p class="card__text">Enterérate cuáles son las últimas tendencias para integrar en tus servicios</p>
+              </div>
+              <div class="carousel__element card margin-x-md">
+                <img src="/Img/majesticons_speakerphone-line.svg" alt="Green speakerphone" class="card__img"/>
+                <h3 class="heading-tertiary">Marketing</h3>
+                <p class="card__text">Posiciona tu negocio para ser la primera opción en el mercado.</p>
+              </div>
+              <div class="carousel__element card margin-x-md">
+                <img src="/Img/ic_outline-web-asset.svg" alt="Yellow window" class="card__img"/>
+                <h3 class="heading-tertiary">Web Design</h3>
+                <p class="card__text">¿Buscas que tu sitio web luzca increible? Diseños personalizados y con el impacto que buscas</p>
+              </div>
+              <div class="carousel__element card margin-x-md">
+                <img src="/Img/iconoir_design-pencil.svg" alt="Red pencil" class="card__img"/>
+                <h3 class="heading-tertiary">UX/UI Design</h3>
+                <p class="card__text">Experiencias únicas para los usuarios que interactúan con tus productos</p>
+              </div>
+              <div class="carousel__element card margin-x-md">
+                <img src="/Img/feather_search.svg" alt="Purple feather" class="card__img"/>
+                <h3 class="heading-tertiary">Research</h3>
+                <p class="card__text">Enterérate cuáles son las últimas tendencias para integrar en tus servicios</p>
+              </div>
+              <div class="carousel__element card margin-x-md">
+                <img src="/Img/majesticons_speakerphone-line.svg" alt="Green speakerphone" class="card__img"/>
+                <h3 class="heading-tertiary">Marketing</h3>
+                <p class="card__text">Posiciona tu negocio para ser la primera opción en el mercado.</p>
+              </div>
+              <div class="carousel__element card margin-x-md">
+                <img src="/Img/ic_outline-web-asset.svg" alt="Yellow window" class="card__img"/>
+                <h3 class="heading-tertiary">Web Design</h3>
+                <p class="card__text">¿Buscas que tu sitio web luzca increible? Diseños personalizados y con el impacto que buscas</p>
+              </div>
+            </div> <!-- .carousel__list -->
+          </div> <!--.carousel__container-->
+
+          <div role="tablist" class="carousel__indicators"></div>
+
+        </div> <!--.carousel-->
+      </div> <!-- .container -->
+    </section>
+
+    <!-- SECTION ABOUT -->
+    <div id="about" class="container">
+      <section class="section-about">
+        <div class="container">
+          <h2 class="heading-secondary">
+            <span>Acerca</span>
+            <span>De mí</span>
+          </h2>
+        </div>
+  
+        <div class="container">
+          <p class="about-me">Soy un desarrollador web con más de 2 años de experiencia trabajando con las últimas y más recientes tecnologías web, mi objetivo es hacer realidad las ideas que mis clientes tienen. Me apasionan los retos y siempre intento llevar mis habilidades al siguiente nivel. ¿Quieres tener sitios web increibles y con soporte para las necesidades de tus clientes? ¡Contáctame ahora! </p>
+
+          <div class="grid grid--2-cols">
+            <figure class="about__school about__school--1">
+              <img src="/Img/UVM.svg" alt="UVM logo" class="about__img">
+              <span>UVM</span>
+              <span>2021 &mdash; X</span>
+            </figure>
+            <figure class="about__school about__school--2">
+              <img src="/Img/Academlo.svg" alt="Academlo logo" class="about__img">
+              <span>Academlo</span>
+              <span>2022 &mdash; X</span>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- SECTION SKILLS -->
+    <section id="skills" class="section-skills">
+      <div class="container">
+        <h2 class="heading-secondary">
+          <span>Mis</span>
+          <span>Habildades</span>
+        </h2>
+      </div>
+
+      <div class="container">
+        <div class="skills__box">
+          <!-- Skill -->
+          <div class="skill__number shadow">
+            <p>95%</p>
+          </div>
+          <h3 class="heading-tertiary">Mobile app design</h3>
+
+          <!-- Skill -->
+          <div class="skill__number">
+            <p>95%</p>
+          </div>
+          <h3 class="heading-tertiary">Web design</h3>
+
+          <!-- Skill -->
+          <div class="skill__number">
+            <p>90%</p>
+          </div>
+          <h3 class="heading-tertiary">Design Systems</h3>
+
+          <!-- Skill -->
+          <div class="skill__number">
+            <p>60%</p>
+          </div>
+          <h3 class="heading-tertiary">HTML, CSS, JavaScript</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION PORTFOLIO -->
+    <section id="portfolio" class="section__portfolio">
+      <div class="container">
+        <h2 class="heading-secondary">
+          <span>Mi</span>
+          <span>portafolio</span>
+        </h2>
+      </div>
+
+      <div class="container">
+        <div class="grid grid--4-cols">
+          <div class="slide">
+            <img src="/Img/image 9-1.svg" alt="Screen of Beauty App" class="slide__img"/>
+            <div class="slide__info">
+              <p class="slide__text">Beauty app</p>
+            </div>
+            <div class="slide__overlay"></div>
+          </div>
+          <div class="slide">
+            <img src="/Img/image 10.svg" alt="Screen of Beauty App" class="slide__img"/>
+            <div class="slide__info">
+              <p class="slide__text">Training app</p>
+            </div>
+            <div class="slide__overlay"></div>
+          </div>
+          <div class="slide">
+            <img src="/Img/Rectangle 58.svg" alt="Screen of Beauty App" class="slide__img"/>
+            <div class="slide__info">
+              <p class="slide__text">Managment</p>
+            </div>
+            <div class="slide__overlay"></div>
+          </div>
+          <div class="slide">
+            <img src="/Img/image 11.svg" alt="Screen of Beauty App" class="slide__img"/>
+            <div class="slide__info">
+              <p class="slide__text">Hotel app</p>
+            </div>
+            <div class="slide__overlay"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION CONTACTO -->
+    <section id="contact" class="section__contact">
+      <div class="container">
+        <h2 class="heading-secondary">Contacto</h2>
+      </div>
+
+      <div class="container grid grid--2-cols">
+        <div class="card card--con card--con-1">
+          <ion-icon name="call" class="contact__icon"></ion-icon>
+          <h3 class="heading-tertiary">
+            <span>Número</span>
+            <span>celular</span>
+          </h3>
+          <a class="contact__anchor" href="tel: +52 (449) 6548073">+52 (449) 6548073</a>
+        </div>
+        <div class="card card--con card--con-2">
+          <ion-icon name="mail" class="contact__icon"></ion-icon>
+          <h3 class="heading-tertiary">Email</h3>
+          <p>
+            <a class="contact__anchor" href="mailto: romansantillan1998@outlook.com">romansantillan1998@outlook.com</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer container">
+    <p>Saulo Román Santillán Nava &copy; &mdash; <span>2022</span> </p>
+    <a href="#">Home &uarr; </a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
