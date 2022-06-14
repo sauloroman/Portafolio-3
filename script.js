@@ -18,7 +18,10 @@ const allLinks = document.querySelectorAll('a:link');
 allLinks.forEach( link => {
   link.addEventListener('click', e => {
 
-    e.preventDefault();
+    // if ( !e.target.href.startsWith('https://') || !e.target.href.startsWith('pro') ) {
+    //   e.preventDefault();
+    // }
+
     const href = link.getAttribute('href');
     console.log( href );
 

@@ -345,6 +345,22 @@
   padding: 6rem 0;
 }
 
+.portfolio__bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio__link:link,
+.portfolio__link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-red);
+  font-weight: 700;
+  padding-bottom: 1px;
+  border-bottom: 1px solid currentColor;
+}
+
 .section__portfolio .heading-secondary span {
   display: block;
 }
@@ -373,7 +389,9 @@
 }
 
 .slide__img {
-  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  height: 60%;
 }
 
 .slide__info {
@@ -382,6 +400,7 @@
 }
 
 .slide__text {
+  text-decoration: none;
   font-size: 2rem;
   font-weight: 600;
   color: var(--color-black);
@@ -432,4 +451,17 @@
 .footer a:visited {
   text-decoration: none;
   color: var(--color-blue);
+}
+
+/* ##################################### */
+/* MY PROJECTS */
+/* ##################################### */
+
+.section__myProjects {
+  padding: 6rem 0;
+}
+
+.gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }

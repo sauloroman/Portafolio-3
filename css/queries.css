@@ -371,4 +371,9 @@
     margin: 0 4rem;
   }
 
+  .portfolio__bar {
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+
 }
